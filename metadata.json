@@ -11,7 +11,8 @@
     ],
     "duration": 5,
     "prerequisites": [
-        "atomic-learning-creating-python-cells"
+        "atomic-learning-creating-python-cells",
+        "atomic-learning-content-repositories"
     ],
     "related": [
         "python-os-listdir",
