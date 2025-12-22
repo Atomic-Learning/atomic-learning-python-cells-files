@@ -13,5 +13,8 @@
     "prerequisites": [
     ],
     "related": [
+    ],
+    "python_packages": [
+        "pandas"
     ]
 }
