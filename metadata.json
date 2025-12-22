@@ -11,8 +11,11 @@
     ],
     "duration": 5,
     "prerequisites": [
+        "atomic-learning-creating-python-cells"
     ],
     "related": [
+        "python-os-listdir",
+        "python-pandas-read_csv"
     ],
     "python_packages": [
         "pandas"
