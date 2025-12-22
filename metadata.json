@@ -16,7 +16,7 @@
     ],
     "related": [
         "python-os-listdir",
-        "python-pandas-read_csv"
+        "python-pandas-read-csv"
     ],
     "python_packages": [
         "pandas"
