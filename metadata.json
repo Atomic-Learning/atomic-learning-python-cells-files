@@ -1,16 +1,15 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Atomic Learning: Accessing Files in Python Cells",
+    "slug": "atomic-learning-python-cells-files",
+    "description": "Discusses how to handle external files in Python cells in the Atomic Learning platform.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "atomic-learning",
+        "python"
     ],
-    "duration": 0,
+    "duration": 5,
     "prerequisites": [
         "",
         ""
