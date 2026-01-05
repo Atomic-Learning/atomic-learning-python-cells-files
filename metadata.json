@@ -16,7 +16,10 @@
     ],
     "related": [
         "python-os-listdir",
-        "python-pandas-read-csv"
+        "python-pandas-read-csv",
+        "python-open-context-manager",
+        "python-read",
+        "python-write"
     ],
     "python_packages": [
         "pandas"
