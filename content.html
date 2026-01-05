@@ -2,7 +2,7 @@ The files in the resources directory will be available when running Python code 
 
 <py-cell>
 import os
-os.listdir()
+print(os.listdir())
 </py-cell>
 
 We can perform normal file operations such as reading a text file, or writing a new file:
@@ -17,7 +17,7 @@ with open("new_file.txt", "w") as f:
     f.write("This is a new file.")
 
 import os
-os.listdir() # This should show the new file
+print(os.listdir()) # This should show the new file
 </py-cell>
 
 We can also use packages as normal to open files. For example, here we use pandas to read a CSV file:
