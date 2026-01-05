@@ -1,11 +1,31 @@
+The files in the resources directory will be available when running Python code cells as if they are in the current working directory. For example, the code below lists the files in the current working directory, which are the same as those in the <a href="https://github.com/Atomic-Learning/atomic-learning-python-cells-files/tree/main/resources" rel="noopener noreferrer" target="_blank">resources directory</a>.
 
 <py-cell>
 import os
 os.listdir()
 </py-cell>
 
+We can perform normal file operations such as reading a text file, or writing a new file:
+
+<py-cell>
+with open("data.txt") as f:
+    content = f.read()
+
+print(content)
+
+with open("new_file.txt", "w") as f:
+    f.write("This is a new file.")
+
+import os
+os.listdir() # This should show the new file
+</py-cell>
+
+We can also use packages as normal to open files. For example, here we use pandas to read a CSV file:
+
 <py-cell>
 import pandas as pd
 data = pd.read_csv("ages.csv")
 data.head()
 </py-cell>
+
+This could be useful for loading datasets to analyse in examples or exercises.
